@@ -26,4 +26,13 @@ def get(request):
     }
 
     return render(request,'get.html',data)
- 
+
+def delete(request):
+    data =  render(request,'delete.html')
+    data.delete_cookie('name')
+    data.delete_cookie('age')
+    data.delete_cookie('city')
+    return data
+
+
+
