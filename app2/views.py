@@ -1,6 +1,6 @@
 
 from django.shortcuts import render
-from app.forms import *
+from app2.forms import *
 
 # Create your views here.
 def home(request):
