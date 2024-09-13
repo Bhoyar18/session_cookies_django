@@ -37,5 +37,6 @@ def delete(request):
     data.delete_cookie('city')
     return data
 
+# =================================================================================
 
 
